@@ -2,3 +2,5 @@ pandas
 kaggle
 tensorflow
 keras
+seaborn
+matplotlib
