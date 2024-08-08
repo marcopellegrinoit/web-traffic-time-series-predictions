@@ -5,3 +5,4 @@ keras
 seaborn
 matplotlib
 prophet
+google-cloud
