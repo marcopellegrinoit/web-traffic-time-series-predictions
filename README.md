@@ -12,6 +12,23 @@ Forecast Web Traffic Demand using LSTM, ARIMA, ARIMA+, and Facebook Prophet; bot
 
 ## Description
 
+The project is split into notebooks that can be executed locally without needing GCP, and code to execute on GCP.
+
+**Local notebooks**
+
+*   Data retrieval pipeline
+*   EDA trends
+*   EDA selected time series
+*   Forecasting
+    *   ARIMA
+    *   LSTM
+    *   Facebook Prophet
+
+**GCP (Google Cloud Platform)**
+
+*   Creation of BigQuery database
+*   ARIMA+ forecasting
+
 ## Data
 
 The dataset consists of approximately 145k time series. Each of these time series represents several daily views of a different Wikipedia article, from July 1st, 2015, until December 31st, 2016.
