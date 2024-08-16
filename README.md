@@ -1,6 +1,10 @@
-# Forecast Web Traffic Demand Time Series
+# Forecast Web Traffic Demand Time Series with ARIMA+ BigQuery and Looker Studio
 
-Forecast Web Traffic Demand using LSTM, ARIMA, ARIMA+, and Facebook Prophet; both locally and in the cloud with GCP and BigQuery.
+Author: Marco Pellegrino\
+Year: 2024
+
+Forecast Web Traffic Demand using ARIMA+ on GCP BigQuery, and visualize insights in Looker Studio.
+Additional data modeling is locally performed with ARIMA, LSTM, and Facebook Prophet.
 
 ## Table of Contents
 
@@ -12,22 +16,17 @@ Forecast Web Traffic Demand using LSTM, ARIMA, ARIMA+, and Facebook Prophet; bot
 
 ## Description
 
-The project is split into notebooks that can be executed locally without needing GCP, and code to execute on GCP.
+The project includes both SQL code to be run on BigQuery and Python code to execute the same analysis on a local machine.
 
-**Local notebooks**
-
-*   Data retrieval pipeline
-*   EDA trends
-*   EDA selected time series
+*   Data retrieval from Kaggle
+*   Data insertion in BigQuery table
+*   EDA trends (both in SQL with BigQuery & Looker Studio, and in Python)
+*   Stationarity test of a selected page time series (in Python)
 *   Forecasting
-    *   ARIMA
-    *   LSTM
-    *   Facebook Prophet
-
-**GCP (Google Cloud Platform)**
-
-*   Creation of BigQuery database
-*   ARIMA+ forecasting
+    *   ARIMA+ (SQL with BigQuery)
+    *   ARIMA (Python)
+    *   LSTM (Python)
+    *   Facebook Prophet (Python)
 
 ## Data
 
